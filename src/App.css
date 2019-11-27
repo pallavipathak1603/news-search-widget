@@ -1,22 +1,62 @@
-.App {
-  text-align: center;
+.searchbar {
+  width: 100%; 
+  margin-bottom: 10px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
+.App{
+  padding: 2rem 20rem 2rem 20rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.searchbar #search-icon { 
+  position: relative;
+    float: right;
+    top: -33px;
+    color: black;
+    z-index: 100;
+} 
+
+#search-page {
+  width: 75%;
+  margin: auto;
+  padding: 2rem;
 }
 
-.App-link {
-  color: #09d3ac;
+.search-input{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+
+input:focus {
+  outline-width: 0;
+}
+.card{
+  height: 6rem;
+  background-color: floralwhite;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.card-body{
+  word-wrap: break-word;
+  float: right;
+  width: 80%;
+}
+
+#timer{
+  font-size: 1rem;
+    color: black;
+    float: right;
+    margin: 1rem;
+}
+
+.image{
+  float: left;
+    padding: 1rem;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 2rem;
 }
