@@ -6,6 +6,7 @@
 
 .App{
   padding: 2rem 20rem 2rem 20rem;
+  background-color: lavender;
 }
 
 .searchbar #search-icon { 
@@ -34,8 +35,8 @@ input:focus {
   outline-width: 0;
 }
 .card{
-  height: 6rem;
-  background-color: floralwhite;
+  height: 7rem;
+  background-color:floralwhite;
   margin-top: 1rem;
   border-radius: 1rem;
 }
@@ -44,6 +45,7 @@ input:focus {
   word-wrap: break-word;
   float: right;
   width: 80%;
+  color: darkslateblue;
 }
 
 #timer{
