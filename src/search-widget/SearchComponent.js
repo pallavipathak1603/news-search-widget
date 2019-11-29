@@ -80,6 +80,7 @@ class SearchComponent extends Component {
                        title={res.title}
                        description={res.description}
                        urlToImage={res.urlToImage}
+                       url={res.url}
                        />
                     })
                 }

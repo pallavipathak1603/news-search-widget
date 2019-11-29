@@ -5,8 +5,8 @@
 }
 
 .App{
-  padding: 2rem 20rem 2rem 20rem;
-  background-color: lavender;
+  padding: 2rem 10rem 2rem 10rem;
+  background-color: black;
 }
 
 .searchbar #search-icon { 
@@ -18,7 +18,7 @@
 } 
 
 #search-page {
-  width: 75%;
+  width: 100%;
   margin: auto;
   padding: 2rem;
 }
@@ -35,17 +35,21 @@ input:focus {
   outline-width: 0;
 }
 .card{
-  height: 7rem;
+  height: auto;
   background-color:floralwhite;
   margin-top: 1rem;
   border-radius: 1rem;
 }
+.card-item-key{
+    margin: 10px;
+    font-weight: 800;
+}
 
 .card-body{
   word-wrap: break-word;
-  float: right;
   width: 80%;
-  color: darkslateblue;
+  color: black;
+  overflow: auto;
 }
 
 #timer{
@@ -61,4 +65,41 @@ input:focus {
     width: 6rem;
     height: 4rem;
     border-radius: 2rem;
+}
+
+.card-list{
+  list-style-type: none;
+}
+@media screen and (max-width: 600px) {
+  .App {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+
+  #search-page {
+    width: 100%;
+    margin: none;
+    padding: 0rem;
+  }
+
+  .image {
+    float: left;
+    padding: 1rem;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.card-list{
+  list-style-type: none;
+  margin-left: -35px;
+}
+.card-body{
+    word-wrap: break-word;
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+    /* margin: 5px; */
+    color: black;
+    overflow: inherit;
+}
 }

@@ -1,15 +1,21 @@
 import React,{Component} from 'react';
 
 class SearchResultComponent extends Component{
+
+    handleClickCard  = () => {
+        window.open(this.props.url, "_blank")
+    }
     render(){
         return(
-              <div className="card">
-               <img className="image" src={this.props.urlToImage} alt="react logo"></img>
-               <div className="card-body">
-                    <b>Author:</b>  {this.props.author}<br/>
-                    <b>Title:</b>  {this.props.title}<br/>
-                    <b>Description:</b> {this.props.description}
-               </div>
+              <div className="card" onClick={this.handleClickCard}>
+                <img className="image" src={this.props.urlToImage} alt="react logo"></img>
+                <div className="card-body">
+                        <ul className="card-list">
+                                <li><span className="card-item-key">Author: </span><span>{this.props.author}</span></li>
+                                <li><span className="card-item-key">Title: </span><span>{this.props.title}</span></li>
+                                <li><span className="card-item-key">Description: </span><span>{this.props.description}</span></li>
+                        </ul>    
+                </div>
            </div>
         )}  
 }
