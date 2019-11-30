@@ -1,7 +1,7 @@
 .searchbar {
-  width: 100%; 
+  position: fixed;
+  width: 82%;
   margin-bottom: 10px;
-  
 }
 
 .App{
@@ -9,13 +9,6 @@
   background-color: black;
 }
 
-.searchbar #search-icon { 
-  position: relative;
-    float: right;
-    top: -33px;
-    color: black;
-    z-index: 100;
-} 
 
 #search-page {
   width: 100%;
@@ -54,12 +47,15 @@ input:focus {
 }
 
 #articles{
-  height: 40rem;
-  overflow: auto;
+  position: relative;
+    top: 7rem;
+    height: 40rem;
+    overflow: auto;
+    width: 102%;
 }
 
 #timer{
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
   float: right;
   margin: 1rem;
@@ -99,10 +95,21 @@ input:focus {
     padding: 2rem 2rem 2rem 2rem;
   }
 
+  #articles{
+    top: 7rem;
+    width: 94%;
+  }
+  .search-input{
+    width: 102%;
+  }
   #search-page {
-    width: 100%;
+    width: 108%;
     margin: none;
     padding: 0rem;
+  }
+
+  #timer {
+    margin-right:4rem;
   }
 
   .image {
@@ -126,4 +133,19 @@ input:focus {
     color: black;
     overflow: inherit;
 }
+}
+
+@media screen and (min-width: 800px) and (max-width: 800px) {
+  .search-input{
+    width: 73%;
+  }
+  .App {
+    padding: 2rem 10rem 2rem 8rem;
+  }
+  #timer{
+    margin-right:20rem;
+  }
+  #articles{
+    width:96%;
+  }
 }
