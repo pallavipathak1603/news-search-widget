@@ -29,6 +29,7 @@
   padding: 1rem;
   font-size: 1rem;
   border-radius: 2rem;
+  border: 1px solid black;
 }
 
 input:focus {
@@ -52,11 +53,16 @@ input:focus {
   overflow: auto;
 }
 
+#articles{
+  height: 40rem;
+  overflow: auto;
+}
+
 #timer{
-  font-size: 1rem;
-    color: black;
-    float: right;
-    margin: 1rem;
+  font-size: 2rem;
+  color: white;
+  float: right;
+  margin: 1rem;
 }
 
 .image{
@@ -70,6 +76,24 @@ input:focus {
 .card-list{
   list-style-type: none;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 600px) {
   .App {
     padding: 2rem 2rem 2rem 2rem;
