@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/news-search-widget/static/css/main.8b48a906.chunk.css",
+    "main.css": "/news-search-widget/static/css/main.61234247.chunk.css",
     "main.js": "/news-search-widget/static/js/main.c491435f.chunk.js",
     "main.js.map": "/news-search-widget/static/js/main.c491435f.chunk.js.map",
     "runtime-main.js": "/news-search-widget/static/js/runtime-main.beb163da.js",
@@ -8,14 +8,14 @@
     "static/js/2.221a5a7a.chunk.js": "/news-search-widget/static/js/2.221a5a7a.chunk.js",
     "static/js/2.221a5a7a.chunk.js.map": "/news-search-widget/static/js/2.221a5a7a.chunk.js.map",
     "index.html": "/news-search-widget/index.html",
-    "precache-manifest.c7dd66c43d68984a1838b06e14aff07a.js": "/news-search-widget/precache-manifest.c7dd66c43d68984a1838b06e14aff07a.js",
+    "precache-manifest.d7fb4443735ee0fd048f629f52057403.js": "/news-search-widget/precache-manifest.d7fb4443735ee0fd048f629f52057403.js",
     "service-worker.js": "/news-search-widget/service-worker.js",
-    "static/css/main.8b48a906.chunk.css.map": "/news-search-widget/static/css/main.8b48a906.chunk.css.map"
+    "static/css/main.61234247.chunk.css.map": "/news-search-widget/static/css/main.61234247.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.beb163da.js",
     "static/js/2.221a5a7a.chunk.js",
-    "static/css/main.8b48a906.chunk.css",
+    "static/css/main.61234247.chunk.css",
     "static/js/main.c491435f.chunk.js"
   ]
 }
