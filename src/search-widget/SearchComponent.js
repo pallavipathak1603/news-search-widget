@@ -5,7 +5,7 @@ import axios from 'axios';
 import '../App.css';
 
 
-const  API_KEY  = "363d26dd3d664d199ca63adc371e22aa"
+const  API_KEY  = "887a45fe4e8e4cff8477f3e53c7ba5df"
 const API_URL = 'https://newsapi.org/v2/everything'
 
 
