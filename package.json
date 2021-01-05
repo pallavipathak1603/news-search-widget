@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://pallavipathak1603.github.io/news-search-widget",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "gh-pages": "^2.1.1",
     "query-string": "^6.9.0",
     "react": "^16.12.0",
